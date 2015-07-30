@@ -1,0 +1,114 @@
+/*para tablet*/
+@media screen and (max-width: 1024px){
+    body{
+        font-size: 18px !important;
+    }
+    .center{
+	    margin: 0;
+    }
+    header{
+        width: 20%;
+        min-width: 168px;
+    }
+    #contenido .center{
+        width: 70%;
+        position: absolute;
+        right: 40%;
+    }
+}
+@media screen and (min-width: 681px) and (max-width: 929px){
+    footer ul{
+        width: 60%;
+        padding: 30px 5% 20px 0;
+    }
+    footer li{
+        width: 40%;
+        vertical-align: top;
+    }
+    footer li:nth-child(3){
+        margin-top: 30px;
+    }
+    footer li:last-child{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 1010px){
+    #filtraje span{
+        display: table;
+        clear: both;
+        margin:5px;
+    }
+    #filtraje select{
+         float: left;
+        margin: 3px 10px 15px 10px;
+    }
+}
+/*para smarthphone*/
+@media screen and (min-width:320px) and (max-width: 680px){
+    header{
+        visibility: hidden;
+    }
+    #panel{
+        top: 0;
+        background-color: #fff;
+        width: 100%;
+        visibility: visible !important;
+    }
+    #contenido .center{
+        width: 100% !important;
+        left: 0 !important;
+    }
+    #contenido .banner{
+        padding-top: 80px;
+        overflow: hidden;
+    }
+    #contenido .banner .center{
+        margin: 20px auto;
+        width: 320px !important;
+    }
+    #contenido .banner img{
+        width: 100%;
+    }
+    #contenido .banner h2{
+        font-size: 4.5em;
+        text-align: center;
+        line-height: 200px;
+    }
+    .l-destacados h3, .nuevos-l h3{
+        font-size: 2em !important;
+        line-height: normal;
+    }
+    footer ul{
+        float: none !important;
+        padding: 30px 0 20px 15% !important;
+        width: 100%;
+    }
+    footer li:nth-child(3){
+        margin-top: 30px;
+    }
+    footer p{
+        margin-top: 30px;
+    }
+    #contacto .center{
+        width: 100% !important;
+        left: 0 !important;
+        text-align: left;
+    }
+    #contacto table{
+        width: 50% !important;
+    }
+    #contacto form{
+        float: none;
+        width: 100%;
+        padding: 20px 10px !important;
+    }
+    #filtraje p+p{
+        letter-spacing: normal;
+        display: none;
+    }
+    #filtraje p:last-child{
+    float: right;
+    letter-spacing: normal;
+        display: inline;
+}
+}
